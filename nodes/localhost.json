@@ -1,0 +1,15 @@
+{
+    "user":{
+        "name": "koduki",
+        "group" : "koduki",
+        "home": "/home/koduki"
+    },
+    "rbenv":{
+        "version": "2.0.0-p195"
+    },
+    "recipes":[
+        "adduser",
+        "rbenv",
+        "chef"
+    ]
+}
