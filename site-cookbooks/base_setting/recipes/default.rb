@@ -29,7 +29,7 @@ template '/etc/selinux/config' do
   mode    '0644'
 end
 
-# zsh default setting
+# /etc/skel setting
 template '/etc/skel/.zshrc' do
   source  'etc/skel/dot_zshrc'
   owner   'root'
@@ -39,6 +39,13 @@ end
 
 template '/etc/skel/.zshrc.mine' do
   source  'etc/skel/dot_zshrc.mine'
+  owner   'root'
+  group   'root'
+  mode    '0644'
+end
+
+template '/etc/skel/.bashrc' do
+  source  'etc/skel/dot_bashrc'
   owner   'root'
   group   'root'
   mode    '0644'
