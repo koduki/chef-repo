@@ -2,6 +2,7 @@
     "recipes":[
         "yum::epel",
         "yumsetup",
-        "base_packages"
+        "base_packages",
+        "base_setting"
     ]
 }
