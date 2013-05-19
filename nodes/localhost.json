@@ -3,6 +3,7 @@
         "yum::epel",
         "yumsetup",
         "base_packages",
-        "base_setting"
+        "base_setting",
+        "add_users"
     ]
 }
